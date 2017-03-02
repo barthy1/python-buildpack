@@ -27,7 +27,8 @@ CONDA_ENVS="$CONDA_HOME/envs"
 CONDA_ENVS_CACHE="$CACHE/envs"
 RUNTIME="$BUILD_DIR/runtime.txt"
 
-# Get the runtime version and download appropriate Miniconda
+# Get the runtime version and download appropriate Minicondai
+ARCH=$(uname -m)
 MINICONDA_VERSION="4.2.12"
 if [ -e $RUNTIME ]; then
     PYTHON_VERSION=$(cut -d- -f2 $RUNTIME)
@@ -38,9 +39,9 @@ if [ -e $RUNTIME ]; then
     else
         PYTHON_MAJOR_VERSION=""
     fi
-    MINICONDA_FILE="Miniconda${PYTHON_MAJOR_VERSION}-${MINICONDA_VERSION}-Linux-x86_64.sh"
+    MINICONDA_FILE="Miniconda${PYTHON_MAJOR_VERSION}-${MINICONDA_VERSION}-Linux-${ARCH}.sh"
 else
-    MINICONDA_FILE="Miniconda2-${MINICONDA_VERSION}-Linux-x86_64.sh"
+    MINICONDA_FILE="Miniconda2-${MINICONDA_VERSION}-Linux-${ARCH}.sh"
 fi
 
 MINICONDA_URI="http://repo.continuum.io/miniconda/$MINICONDA_FILE"

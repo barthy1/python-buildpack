@@ -19,68 +19,68 @@ dependencies:
     version: 1.0.18
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libmemcache-1.0.18-linux-x64.tgz
-    md5: 9d08074f5b5cb802cb411c22f93f762e
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/manual-binaries/python/libmemcache-1.0.18-linux-ppc64le.tgz
+    md5: 93a56f94063cdd1a19b9ed4dd55f21d5
   - name: libffi
     version: 3.2.1
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libffi-3.2.1-linux-x64.tgz
-    md5: 331af925ee2ea8f07d80ccfce4d2000c
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/manual-binaries/python/libffi-3.2.1-linux-ppc64le.tgz
+    md5: 40f0da8a6c952e92e238f40a00667e3a
   - name: python
     version: 2.7.12
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.12-linux-x64.tgz
-    md5: 38fa0667f9662c34c73be36df2b5b21d
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-2.7.12-linux-ppc64le.tgz
+    md5: 2598cc1fb1ad7f6fdd6e6dae5d54ec83
   - name: python
     version: 2.7.13
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.13-linux-x64.tgz
-    md5: f10ace51cc91429beacf201ab0d06049
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-2.7.13-linux-ppc64le.tgz
+    md5: 66e79b20434ff2a5e4dc2fa9ebfc9bdd
   - name: python
     version: 3.3.5
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.3.5-linux-x64.tgz
-    md5: abf00a0a470babc21837584fbff518a7
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-3.3.5-linux-ppc64le.tgz
+    md5: 5f3b6309dc0f8dc5841cfa8c0dc5faf9
   - name: python
     version: 3.3.6
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.3.6-linux-x64.tgz
-    md5: 5e42b5355a092ef1cc6ecb1c610ac4e1
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-3.3.6-linux-ppc64le.tgz
+    md5: 5e3ce48c3e3d9651ca15a4baf2986c55
   - name: python
     version: 3.4.6
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.4.6-linux-x64.tgz
-    md5: 34658f5466c673b5efc26d4f5cc291b6
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-3.4.6-linux-ppc64le.tgz
+    md5: 0a17b8e70c393b2f0a0f5fc219a64754
   - name: python
     version: 3.4.5
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.4.5-linux-x64.tgz
-    md5: 3e8b3520b1b8a946a239c1f9c31db665
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-3.4.5-linux-ppc64le.tgz
+    md5: bc38a7ef8936784653dec9956ab89f43
   - name: python
     version: 3.5.3
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.5.3-linux-x64.tgz
-    md5: 105f02b252319a16e8faef23d73712c5
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-3.5.3-linux-ppc64le.tgz
+    md5: 40646bc1af8c2e24ae530171618e34f7
   - name: python
     version: 3.5.2
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.5.2-linux-x64.tgz
-    md5: 4f59bbf15a53f0474d0e844631954782
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-3.5.2-linux-ppc64le.tgz
+    md5: 3e0a85234e8b9d991048d1a7ffd60662
   - name: python
     version: 3.6.0
     cf_stacks:
       - cflinuxfs2
-    uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.6.0-linux-x64.tgz
-    md5: 89c8f988e45c4f078c435a9fbbd9d3b3
+    uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/python/python-3.6.0-linux-ppc64le.tgz
+    md5: 48e4e45f27af0793ae1f57520d2ec479
 exclude_files:
   - .git/
   - .gitignore
